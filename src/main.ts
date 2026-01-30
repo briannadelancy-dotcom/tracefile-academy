@@ -386,9 +386,6 @@ const queuePill = document.getElementById("queuePill") as HTMLSpanElement;
 const countPill = document.getElementById("countPill") as HTMLSpanElement;
 const certSpot = document.getElementById("certSpot") as HTMLDivElement;
 
-function percentComplete() {
-  return Math.round((completed.size / modules.length) * 100);
-}
 
 function updateStats() {
   const progress = Math.round((completed.size / modules.length) * 100);
